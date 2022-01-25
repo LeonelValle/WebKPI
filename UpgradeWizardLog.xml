@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web-Dashboard.csproj" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\About.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\About.aspx" />
+  <event action="Analyze" type="Success" name="About.aspx" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\About.aspx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Bundle.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Bundle.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Bundle.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Bundle.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Bundle.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Bundle.config" />
+  <event action="Analyze" type="Success" name="Bundle.config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Bundle.config" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\CheckList.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\CheckList.aspx" />
+  <event action="Analyze" type="Success" name="CheckList.aspx" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\CheckList.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\CheckListMonthly.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\CheckListMonthly.aspx" />
+  <event action="Analyze" type="Success" name="CheckListMonthly.aspx" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\CheckListMonthly.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\CheckListWeekly.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\CheckListWeekly.aspx" />
+  <event action="Analyze" type="Success" name="CheckListWeekly.aspx" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\CheckListWeekly.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Contact.aspx" />
+  <event action="Analyze" type="Success" name="Contact.aspx" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Contact.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Dashboard.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Dashboard.aspx" />
+  <event action="Analyze" type="Success" name="Dashboard.aspx" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Dashboard.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Default.aspx" />
+  <event action="Analyze" type="Success" name="Default.aspx" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Matrics.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Matrics.aspx" />
+  <event action="Analyze" type="Success" name="Matrics.aspx" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Matrics.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Metrics_Dashboard.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Metrics_Dashboard.aspx" />
+  <event action="Analyze" type="Success" name="Metrics_Dashboard.aspx" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Metrics_Dashboard.aspx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\packages.config" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Report.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Report.aspx" />
+  <event action="Analyze" type="Success" name="Report.aspx" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Report.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Site.Master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Site.Master" />
+  <event action="Analyze" type="Success" name="Site.Master" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Site.Master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Site.Mobile.Master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Site.Mobile.Master" />
+  <event action="Analyze" type="Success" name="Site.Mobile.Master" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Site.Mobile.Master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\ViewSwitcher.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\ViewSwitcher.ascx" />
+  <event action="Analyze" type="Success" name="ViewSwitcher.ascx" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\ViewSwitcher.ascx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Web.Debug.config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Web.Release.config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Web-Dashboard" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web-Dashboard.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\DataAccess\DataAccess.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\DataAccess\App.Config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\DataAccess\App.Config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\DataAccess\App.Config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\DataAccess\App.Config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\DataAccess\App.Config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\DataAccess\App.Config" />
+  <event action="Analyze" type="Success" name="App.Config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\DataAccess\App.Config" />
+  <event action="Analyze" type="Success" name="DataAccess" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\DataAccess\DataAccess.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\WebTest-API.csproj" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\_ViewStart.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\_ViewStart.cshtml" />
+  <event action="Analyze" type="Success" name="_ViewStart.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\_ViewStart.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\Api.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\Api.cshtml" />
+  <event action="Analyze" type="Success" name="Api.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\Api.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
+  <event action="Analyze" type="Success" name="ApiGroup.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="CollectionModelDescription.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="ComplexTypeModelDescription.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="DictionaryModelDescription.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="EnumTypeModelDescription.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
+  <event action="Analyze" type="Success" name="HelpPageApiModel.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
+  <event action="Analyze" type="Success" name="ImageSample.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
+  <event action="Analyze" type="Success" name="InvalidSample.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="KeyValuePairModelDescription.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml" />
+  <event action="Analyze" type="Success" name="ModelDescriptionLink.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
+  <event action="Analyze" type="Success" name="Parameters.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
+  <event action="Analyze" type="Success" name="Samples.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="SimpleTypeModelDescription.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
+  <event action="Analyze" type="Success" name="TextSample.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Index.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\ResourceModel.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\ResourceModel.cshtml" />
+  <event action="Analyze" type="Success" name="ResourceModel.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Help\ResourceModel.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Shared\_Layout.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Shared\_Layout.cshtml" />
+  <event action="Analyze" type="Success" name="_Layout.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Shared\_Layout.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Areas\HelpPage\Views\Web.config" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\packages.config" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\_ViewStart.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\_ViewStart.cshtml" />
+  <event action="Analyze" type="Success" name="_ViewStart.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\_ViewStart.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Home\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Home\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Index.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Home\Index.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Shared\_Layout.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Shared\_Layout.cshtml" />
+  <event action="Analyze" type="Success" name="_Layout.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Shared\_Layout.cshtml" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Shared\Error.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Shared\Error.cshtml" />
+  <event action="Analyze" type="Success" name="Error.cshtml" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Shared\Error.cshtml" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Views\Web.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Web.Debug.config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Web.Release.config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\Web.Release.config" />
+  <event action="Analyze" type="Success" name="WebTest-API" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\WebTest-API\WebTest-API.csproj" />
+  <event action="Analyze" type="Success" name="Web-Dashboard" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard.sln" />
+  <event action="Backup" type="Success" name="Web-Dashboard" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web-Dashboard.csproj" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web-Dashboard.csproj" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Metrics_Dashboard.aspx" />
+  <event action="Upgrade" type="Success" name="Metrics_Dashboard.aspx" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Metrics_Dashboard.aspx" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.config" />
+  <event action="Upgrade" type="Success" name="Web.config" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web.config" />
+  <event action="Upgrade" type="Success" name="Web-Dashboard" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard\Web-Dashboard.csproj" />
+  <event action="Upgrade" type="Success" name="Web-Dashboard" path="C:\Users\leonel.valle\source\repos\Web-Dashboard\Web-Dashboard.sln" />
+</log>
