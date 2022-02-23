@@ -31,10 +31,10 @@ namespace Web_Dashboard
         {
             if (rbl_BackupControlAcceso.SelectedValue != "" && rb_bloquearusb.SelectedValue != "" && rb_RevisionclinetesWIFI.SelectedValue != "")
             {
-                weekly.Crud("insert into CheckListWeekly (MoverFuerabkp, Comment_MoverFuerabkp, ControlAccesobkp, Comment_ControlAccesobkp, RevisionClientesWIFI, Comment_RevisionClientesWIFI, username, dateReg) values('"
-                    + rb_bloquearusb.SelectedValue + "','" + txt_Commentbloquearusb.Text + "','" + rbl_BackupControlAcceso.SelectedValue + "','" + txt_BackupControlAcceso.Text +
-                    "','" + rb_RevisionclinetesWIFI.SelectedValue + "','" + txt_CommentRevisionclinetesWIFI.Text +
-                    "','" + ddl_Username.Text.Trim() + "','" + DateTime.Now.ToString("MM/dd/yyyy") + "')");
+                //weekly.Crud("insert into CheckListWeekly (MoverFuerabkp, Comment_MoverFuerabkp, ControlAccesobkp, Comment_ControlAccesobkp, RevisionClientesWIFI, Comment_RevisionClientesWIFI, username, dateReg) values('"
+                //    + rb_bloquearusb.SelectedValue + "','" + txt_Commentbloquearusb.Text + "','" + rbl_BackupControlAcceso.SelectedValue + "','" + txt_BackupControlAcceso.Text +
+                //    "','" + rb_RevisionclinetesWIFI.SelectedValue + "','" + txt_CommentRevisionclinetesWIFI.Text +
+                //    "','" + ddl_Username.Text.Trim() + "','" + DateTime.Now.ToString("MM/dd/yyyy") + "')");
 
             }
         }
@@ -55,14 +55,14 @@ namespace Web_Dashboard
 
         protected void btn_Edit_Click(object sender, EventArgs e)
         {
-            if (ddl_Username.Text != "UserName" && txt_Date.Text != "" && rbl_BackupControlAcceso.SelectedValue != "" && rbl_BackupFuera.SelectedValue != "" && rb_RevisionclinetesWIFI.SelectedValue != "")
-            {
-                weekly.Crud("update CheckListWeekly set RevisionClientesWIFI = '" + rb_RevisionclinetesWIFI.SelectedValue + "', Comment_RevisionClientesWIFI = '" + txt_CommentRevisionclinetesWIFI.Text.Trim() +
-                    "', MoverFuerabkp = '" + rbl_BackupFuera.SelectedValue + "', Comment_MoverFuerabkp = '" + txt_CommentBackupFuera.Text.Trim() + "', ControlAccesobkp = '" + rbl_BackupControlAcceso.SelectedValue
-                    + "', Comment_ControlAccesobkp = '" + txt_BackupControlAcceso.Text.Trim() + "', username = '" + ddl_Username.Text
-                    + "' where id_clw = '" + weekly.Id_clw + "'");
+            //if (ddl_Username.Text != "UserName" && txt_Date.Text != "" && rbl_BackupControlAcceso.SelectedValue != "" && rbl_BackupFuera.SelectedValue != "" && rb_RevisionclinetesWIFI.SelectedValue != "")
+            //{
+            //    weekly.Crud("update CheckListWeekly set RevisionClientesWIFI = '" + rb_RevisionclinetesWIFI.SelectedValue + "', Comment_RevisionClientesWIFI = '" + txt_CommentRevisionclinetesWIFI.Text.Trim() +
+            //        "', MoverFuerabkp = '" + rbl_BackupFuera.SelectedValue + "', Comment_MoverFuerabkp = '" + txt_CommentBackupFuera.Text.Trim() + "', ControlAccesobkp = '" + rbl_BackupControlAcceso.SelectedValue
+            //        + "', Comment_ControlAccesobkp = '" + txt_BackupControlAcceso.Text.Trim() + "', username = '" + ddl_Username.Text
+            //        + "' where id_clw = '" + weekly.Id_clw + "'");
 
-            }
+            //}
         }
 
         private void GetFields()
@@ -76,14 +76,14 @@ namespace Web_Dashboard
                 {
                     weekly.Id_clw = int.Parse(leer["id_clw"].ToString());
 
-                    ddl_Username.SelectedValue = leer["username"].ToString();
+                    //ddl_Username.SelectedValue = leer["username"].ToString();
 
                     txt_BackupControlAcceso.Text = leer["Comment_ControlAccesobkp"].ToString();
                     txt_CommentBackupFuera.Text = leer["Comment_MoverFuerabkp"].ToString();
                     txt_CommentRevisionclinetesWIFI.Text = leer["Comment_RevisionClientesWIFI"].ToString();
 
                     rbl_BackupControlAcceso.SelectedValue = Convert.ToInt32(bool.Parse(leer["ControlAccesobkp"].ToString())).ToString();
-                    rbl_BackupFuera.SelectedValue = Convert.ToInt32(bool.Parse(leer["MoverFuerabkp"].ToString())).ToString();
+                    //rbl_BackupFuera.SelectedValue = Convert.ToInt32(bool.Parse(leer["MoverFuerabkp"].ToString())).ToString();
                     rb_RevisionclinetesWIFI.SelectedValue = Convert.ToInt32(bool.Parse(leer["RevisionClientesWIFI"].ToString())).ToString();
 
 
@@ -95,7 +95,7 @@ namespace Web_Dashboard
                     txt_BackupControlAcceso.Text = "";
 
                     rb_RevisionclinetesWIFI.SelectedIndex = -1;
-                    rbl_BackupFuera.SelectedIndex = -1;
+                    //rbl_BackupFuera.SelectedIndex = -1;
                     rbl_BackupControlAcceso.SelectedIndex = -1;
 
                 }
