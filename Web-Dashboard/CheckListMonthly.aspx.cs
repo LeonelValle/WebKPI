@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace Web_Dashboard
 {
     public partial class CheckListMonthly : System.Web.UI.Page
     {
         Monthly monthly = new Monthly();
+        User users = new User();
         protected void Page_Load(object sender, EventArgs e)
         {
             #region Disable 
@@ -60,39 +56,38 @@ namespace Web_Dashboard
 
         protected void btn_Save_Click(object sender, EventArgs e)
         {
-            if (rbl_UpdateMeraki.SelectedValue != "" && rbl_UpdatesWAP.SelectedValue != "" && rbl_WindowsUpdates.SelectedValue != "" && rb_bloquearusb.SelectedValue != "")
+            if (rbl_WindowsUpdates.SelectedValue != "" && rbl_active.SelectedValue != "" && rbl_WindowsUpdates.SelectedValue != "" && rbl_antivirus.SelectedValue != "")
             {
-                monthly.Crud("insert into CheckListMonthly (WindowsUpdates, Comment_WindowsUpdates, UpdateMeraki, Comment_UpdateMeraki, UpdatesWAP, Comment_UpdatesWAP, BloquearUSB, Comment_BloquearUSB, username, dateReg) values('"
-                    + rbl_WindowsUpdates.SelectedValue + "','" + txt_CommentWindowsUpdates.Text + "','" + rbl_UpdateMeraki.SelectedValue + "','" + txt_CommentUpdateMeraki.Text +
-                    "','" + rbl_UpdatesWAP.SelectedValue + "','" + txt_CommentUpdateMeraki.Text + "','" + rbl_UpdatesWAP.SelectedValue + "','" + txt_CommentUpdatesWAP.Text +
-                    "','" + ddl_Username.Text.Trim() + "','" + DateTime.Now.ToString("MM/dd/yyyy") + "')");
+                monthly.Crud("insert into CheckListMonthly (WindowsUpdates, Comment_WindowsUpdates, antivirus, comment_antivirus, active, comment_active, licenciasOffice, comment_licenciasOffice , username, dateReg) values('"
+                    + rbl_WindowsUpdates.SelectedValue + "','" + txt_CommentWindowsUpdates.Text + "','" + rbl_antivirus.SelectedValue + "','" + txt_antivirus.Text +
+                    "','" + rbl_active.SelectedValue + "','" + txt_active.Text + "','" + rb_licenciasoffices.SelectedValue + "','" + txt_licenciasoffices.Text + "','" +
+                    "','" + users.Name + "','" + DateTime.Now.ToString("MM/dd/yyyy") + "')");
 
             }
         }
 
         protected void btn_Cancel_Click(object sender, EventArgs e)
         {
-            txt_Commentbloquearusb.Text = "";
-            txt_CommentUpdateMeraki.Text = "";
-            txt_CommentUpdatesWAP.Text = "";
+            txt_active.Text = "";
+            txt_antivirus.Text = "";
             txt_CommentWindowsUpdates.Text = "";
             txt_Date.Text = "";
 
-            rbl_UpdateMeraki.SelectedIndex = -1;
-            rbl_UpdatesWAP.SelectedIndex = -1;
+            rbl_active.SelectedIndex = -1;
+            rbl_antivirus.SelectedIndex = -1;
             rbl_WindowsUpdates.SelectedIndex = -1;
-            rb_bloquearusb.SelectedIndex = -1;
+            rb_licenciasoffices.SelectedIndex = -1;
         }
 
         protected void btn_Edit_Click(object sender, EventArgs e)
         {
-            if (ddl_Username.Text != "UserName" && txt_Date.Text != "" && rbl_UpdatesWAP.SelectedValue != "" && rbl_UpdateMeraki.SelectedValue != "" && rbl_WindowsUpdates.SelectedValue != "" && rb_bloquearusb.SelectedValue != "")
+            if ( txt_Date.Text != "" && rb_licenciasoffices.SelectedValue != "" && rbl_WindowsUpdates.SelectedValue != "" && rbl_antivirus.SelectedValue != "" && rbl_active.SelectedValue != "")
             {
-                monthly.Crud("update CheckListMonthly set UpdateMeraki = '" + rbl_UpdateMeraki.SelectedValue + "', Comment_UpdateMeraki = '" + txt_CommentUpdateMeraki.Text.Trim()
-                    + "', UpdatesWAP = '" + rbl_UpdatesWAP.SelectedValue + "', Comment_UpdatesWAP = '" + txt_CommentUpdatesWAP.Text.Trim()
+                monthly.Crud("update CheckListMonthly set antivirus = '" + rbl_antivirus.SelectedValue + "', comment_antivirus = '" + txt_antivirus.Text.Trim()
+                    + "', licenciasOffice = '" + rb_licenciasoffices.SelectedValue + "', comment_licenciasOffice = '" + txt_licenciasoffices.Text.Trim()
                     + "', WindowsUpdates = '" + rbl_WindowsUpdates.SelectedValue + "', Comment_WindowsUpdates = '" + txt_CommentWindowsUpdates.Text.Trim()
-                    + "', BloquearUSB = '" + rb_bloquearusb.SelectedValue + "', Comment_BloquearUSB = '" + txt_Commentbloquearusb.Text.Trim()
-                    + "', username = '" + ddl_Username.Text
+                    + "', active = '" + rbl_active.SelectedValue + "', comment_active = '" + txt_active.Text.Trim()
+                    + "', username = '" + users.Name
                     + "' where id_clw = '" + monthly.Id_clm + "'");
 
             }
@@ -109,31 +104,30 @@ namespace Web_Dashboard
                 {
                     monthly.Id_clm = int.Parse(leer["id_clm"].ToString());
 
-                    ddl_Username.SelectedValue = leer["username"].ToString();
 
-                    txt_Commentbloquearusb.Text = leer["Comment_BloquearUSB"].ToString();
-                    txt_CommentUpdateMeraki.Text = leer["Comment_UpdateMeraki"].ToString();
-                    txt_CommentUpdatesWAP.Text = leer["Comment_UpdatesWAP"].ToString();
+                    txt_licenciasoffices.Text = leer["comment_licenciasOffice"].ToString();
+                    txt_antivirus.Text = leer["comment_antivirus"].ToString();
+                    txt_active.Text = leer["comment_active"].ToString();
                     txt_CommentWindowsUpdates.Text = leer["Comment_WindowsUpdates"].ToString();
 
-                    rbl_UpdateMeraki.SelectedValue = Convert.ToInt32(bool.Parse(leer["UpdateMeraki"].ToString())).ToString();
-                    rbl_UpdatesWAP.SelectedValue = Convert.ToInt32(bool.Parse(leer["UpdatesWAP"].ToString())).ToString();
+                    rbl_active.SelectedValue = Convert.ToInt32(bool.Parse(leer["active"].ToString())).ToString();
+                    rbl_antivirus.SelectedValue = Convert.ToInt32(bool.Parse(leer["antivirus"].ToString())).ToString();
                     rbl_WindowsUpdates.SelectedValue = Convert.ToInt32(bool.Parse(leer["WindowsUpdates"].ToString())).ToString();
-                    rb_bloquearusb.SelectedValue = Convert.ToInt32(bool.Parse(leer["BloquearUSB"].ToString())).ToString();
+                    rb_licenciasoffices.SelectedValue = Convert.ToInt32(bool.Parse(leer["licenciasOffice"].ToString())).ToString();
 
 
                 }
                 else
                 {
-                    txt_Commentbloquearusb.Text = "";
-                    txt_CommentUpdateMeraki.Text = "";
-                    txt_CommentUpdatesWAP.Text = "";
+                    txt_active.Text = "";
+                    txt_antivirus.Text = "";
+                    txt_licenciasoffices.Text = "";
                     txt_CommentWindowsUpdates.Text = "";
 
-                    rbl_UpdateMeraki.SelectedIndex = -1;
-                    rbl_UpdatesWAP.SelectedIndex = -1;
+                    rbl_antivirus.SelectedIndex = -1;
+                    rbl_active.SelectedIndex = -1;
                     rbl_WindowsUpdates.SelectedIndex = -1;
-                    rb_bloquearusb.SelectedIndex = -1;
+                    rb_licenciasoffices.SelectedIndex = -1;
 
                 }
 

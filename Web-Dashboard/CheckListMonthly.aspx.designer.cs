@@ -60,15 +60,6 @@ namespace Web_Dashboard
         protected global::System.Web.UI.WebControls.Button btn_Cancel;
 
         /// <summary>
-        /// ddl_Username control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddl_Username;
-
-        /// <summary>
         /// CheckMain control.
         /// </summary>
         /// <remarks>
@@ -105,42 +96,6 @@ namespace Web_Dashboard
         protected global::System.Web.UI.WebControls.TextBox txt_CommentWindowsUpdates;
 
         /// <summary>
-        /// rbl_UpdateMeraki control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rbl_UpdateMeraki;
-
-        /// <summary>
-        /// txt_CommentUpdateMeraki control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_CommentUpdateMeraki;
-
-        /// <summary>
-        /// rbl_UpdatesWAP control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rbl_UpdatesWAP;
-
-        /// <summary>
-        /// txt_CommentUpdatesWAP control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_CommentUpdatesWAP;
-
-        /// <summary>
         /// H1 control.
         /// </summary>
         /// <remarks>
@@ -150,21 +105,57 @@ namespace Web_Dashboard
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl H1;
 
         /// <summary>
-        /// rb_bloquearusb control.
+        /// rb_licenciasoffices control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rb_bloquearusb;
+        protected global::System.Web.UI.WebControls.RadioButtonList rb_licenciasoffices;
 
         /// <summary>
-        /// txt_Commentbloquearusb control.
+        /// txt_licenciasoffices control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_Commentbloquearusb;
+        protected global::System.Web.UI.WebControls.TextBox txt_licenciasoffices;
+
+        /// <summary>
+        /// rbl_active control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rbl_active;
+
+        /// <summary>
+        /// txt_active control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_active;
+
+        /// <summary>
+        /// rbl_antivirus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rbl_antivirus;
+
+        /// <summary>
+        /// txt_antivirus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_antivirus;
     }
 }

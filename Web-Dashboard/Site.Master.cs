@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Security.Principal;
-using System.Web;
 using System.Web.UI;
 
 namespace Web_Dashboard
@@ -9,10 +7,13 @@ namespace Web_Dashboard
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            WindowsIdentity identity = HttpContext.Current.Request.LogonUserIdentity;
+            LDAPAutenticador lDAP = new LDAPAutenticador();
+            User user = new User();
+            //WindowsIdentity identity = HttpContext.Current.Request.LogonUserIdentity;
 
             //lblUser.Text = identity.Name.Substring(4);
-            lblUser.Text = Environment.UserName;
+            user.Name = Session["name"].ToString();
+            lblUser.Text = user.Name;
 
         }
     }

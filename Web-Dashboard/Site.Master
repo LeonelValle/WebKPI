@@ -2,8 +2,6 @@
 
 <!DOCTYPE html>
 
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-
 
 <html lang="en">
 <head runat="server">
@@ -57,7 +55,6 @@
                         <asp:Image ImageUrl="~/Images/logo2 - Copy.png" runat="server" Width="55px" Height="50px" />
                     </a>
 
-
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -78,6 +75,16 @@
                                 </ul>
                         </li>
                         <li><a runat="server" href="Dashboard.aspx">Dashboard</a></li>
+
+                        <li class="dropdown">
+                            <a runat="server" href="CheckList.aspx" class="dropdown-toggle" data-toggle="dropdown">Inventory<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a runat="server" href="CheckList.aspx">Add Device</a></li>
+                                <li><a runat="server" href="CheckListWeekly.aspx">Inventory</a></li>
+                                <li><a runat="server" href="CheckListMonthly.aspx">Log Maintenance</a></li>
+                                <li><a runat="server" href="Report.aspx">Reports</a></li>
+                            </ul>
+                        </li>
 
                     </ul>
 

@@ -1,2 +1,0 @@
-C:\Users\leonel.valle\source\repos\Web-Dashboard\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
-C:\Users\leonel.valle\source\repos\Web-Dashboard\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache

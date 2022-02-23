@@ -68,14 +68,7 @@
             <asp:Button ID="btn_Cancel" runat="server" Text="Cancel" OnClick="btn_Cancel_Click" />
 
             <br />
-            <br />
-            <h4>Name: </h4>
-            <asp:DropDownList ID="ddl_Username" runat="server">
-                <asp:ListItem>UserName</asp:ListItem>
-                <asp:ListItem>Alfredo Tostado</asp:ListItem>
-                <asp:ListItem>Omar Licon</asp:ListItem>
-                <asp:ListItem>Leonel Valle</asp:ListItem>
-            </asp:DropDownList>
+
             <br />
             <h4 style="color: red; float: right; font-size: 14px;">*Mandar ticket en caso de algun problema</h4>
             <br />
@@ -103,48 +96,14 @@
 
         <br />
 
+
+
+
+
+        <h4 id="H1" runat="server" text="Revision">Clean-UP</h4>
         <div style="display: inline-flex;">
-            <h5 style="padding-left: 80px;">Actualizacion de Firmware Meraki</h5>
-            <asp:RadioButtonList ID="rbl_UpdateMeraki" runat="server" RepeatDirection="Horizontal" CellSpacing="30" CellPadding="30" ClientIDMode="AutoID" CssClass="inline-rb">
-                <asp:ListItem Value="1">Ok</asp:ListItem>
-                <asp:ListItem Value="0">No</asp:ListItem>
-            </asp:RadioButtonList>
-        </div>
-        <br />
-        <div class="ident">
-            <asp:Label runat="server" Text="Comments:"></asp:Label>
-
-            <asp:TextBox ID="txt_CommentUpdateMeraki" runat="server" TextMode="MultiLine"></asp:TextBox>
-
-        </div>
-        <hr />
-        <br />
-
-        <br />
-
-        <div style="display: inline-flex;">
-            <h5 style="padding-left: 80px;">Actualizacion firmware WAP</h5>
-            <asp:RadioButtonList ID="rbl_UpdatesWAP" runat="server" RepeatDirection="Horizontal" CellSpacing="30" CellPadding="30" ClientIDMode="AutoID" CssClass="inline-rb">
-                <asp:ListItem Value="1">Ok</asp:ListItem>
-                <asp:ListItem Value="0">No</asp:ListItem>
-            </asp:RadioButtonList>
-        </div>
-        <br />
-        <div class="ident">
-            <asp:Label runat="server" Text="Comments:"></asp:Label>
-
-            <asp:TextBox ID="txt_CommentUpdatesWAP" runat="server" TextMode="MultiLine"></asp:TextBox>
-
-        </div>
-        <hr />
-        <br />
-
-
-
-        <h4 id="H1" runat="server" text="Revision">Revision</h4>
-        <div style="display: inline-flex;">
-            <h5>Bloquear USB clientes</h5>
-            <asp:RadioButtonList ID="rb_bloquearusb" runat="server" RepeatDirection="Horizontal" CellSpacing="30" CellPadding="30" ClientIDMode="AutoID" CssClass="inline-rb">
+            <h5>Licencias Offices</h5>
+            <asp:RadioButtonList ID="rb_licenciasoffices" runat="server" RepeatDirection="Horizontal" CellSpacing="30" CellPadding="30" ClientIDMode="AutoID" CssClass="inline-rb">
                 <asp:ListItem Value="1">Ok</asp:ListItem>
                 <asp:ListItem Value="0">No</asp:ListItem>
             </asp:RadioButtonList>
@@ -154,12 +113,43 @@
         <div class="ident">
             <asp:Label runat="server" Text="Comments:"></asp:Label>
 
-            <asp:TextBox ID="txt_Commentbloquearusb" runat="server" TextMode="MultiLine"></asp:TextBox>
+            <asp:TextBox ID="txt_licenciasoffices" runat="server" TextMode="MultiLine"></asp:TextBox>
 
         </div>
 
         <br />
+        <div style="display: inline-flex;">
+            <h5>Usuarios Desabilitados Active directory</h5>
+            <asp:RadioButtonList ID="rbl_active" runat="server" RepeatDirection="Horizontal" CellSpacing="30" CellPadding="30" ClientIDMode="AutoID" CssClass="inline-rb">
+                <asp:ListItem Value="1">Ok</asp:ListItem>
+                <asp:ListItem Value="0">No</asp:ListItem>
+            </asp:RadioButtonList>
 
+        </div>
+        <br />
+        <div class="ident">
+            <asp:Label runat="server" Text="Comments:"></asp:Label>
+
+            <asp:TextBox ID="txt_active" runat="server" TextMode="MultiLine"></asp:TextBox>
+
+        </div>
+        <br />
+        <div style="display: inline-flex;">
+            <h5>Maquinas de Antivirus</h5>
+            <asp:RadioButtonList ID="rbl_antivirus" runat="server" RepeatDirection="Horizontal" CellSpacing="30" CellPadding="30" ClientIDMode="AutoID" CssClass="inline-rb">
+                <asp:ListItem Value="1">Ok</asp:ListItem>
+                <asp:ListItem Value="0">No</asp:ListItem>
+            </asp:RadioButtonList>
+
+        </div>
+        <br />
+        <div class="ident">
+            <asp:Label runat="server" Text="Comments:"></asp:Label>
+
+            <asp:TextBox ID="txt_antivirus" runat="server" TextMode="MultiLine"></asp:TextBox>
+
+        </div>
+        <br />
     </div>
 
 

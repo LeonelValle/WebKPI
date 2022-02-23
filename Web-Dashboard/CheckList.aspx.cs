@@ -6,9 +6,9 @@ namespace Web_Dashboard
     public partial class CheckList : System.Web.UI.Page
     {
         CheckLists cl = new CheckLists();
+        User users = new User();
         protected void Page_Load(object sender, EventArgs e)
         {
-
             #region Disable 
             CheckMain.Visible = false;
             txt_ACfuncionaCom.Enabled = false;
@@ -21,8 +21,13 @@ namespace Web_Dashboard
             txt_CommentPTRG.Enabled = false;
             txt_CommentOtroDisp.Enabled = false;
             txt_CommentInternet.Enabled = false;
-            txt_CommentBackup.Enabled = false;
+            txt_bkponpremise.Enabled = false;
             txt_CommentSwitch.Enabled = false;
+            txt_CommentBackupcloud.Enabled = false;
+            txt_firewall.Enabled = false;
+            txt_ispdevices.Enabled = false;
+            
+
             rbl_ACfunciona.Enabled = false;
             rbl_AVdeteccion.Enabled = false;
             rbl_ACfunciona.Enabled = false;
@@ -33,20 +38,39 @@ namespace Web_Dashboard
             rbl_PTRG.Enabled = false;
             rbl_NAS.Enabled = false;
             rbl_Internet.Enabled = false;
-            rbl_Backup.Enabled = false;
+            rbl_Backup_onpremise.Enabled = false;
             rbl_switch.Enabled = false;
+            rbl_Backup_cloud.Enabled = false;
+            rbl_Firewall.Enabled = false;
+            rbl_ispdevices.Enabled = false;
+            
+
             #endregion
+
         }
 
         protected void btn_Save_Click(object sender, EventArgs e)
         {
-            if (rbl_ACfunciona.SelectedValue != "" && rbl_AlarmaOtroDisp.SelectedValue != "" && rbl_AVdeteccion.SelectedValue != "" && rbl_Backup.SelectedValue != "" && rbl_Internet.SelectedValue != "" && rbl_NAS.SelectedValue != ""
+            if (rbl_ACfunciona.SelectedValue != "" && rbl_AlarmaOtroDisp.SelectedValue != "" && rbl_AVdeteccion.SelectedValue != "" && rbl_Backup_onpremise.SelectedValue != "" && rbl_Internet.SelectedValue != "" && rbl_NAS.SelectedValue != ""
                 && rbl_PTRG.SelectedValue != "" && rbl_SAlarma.SelectedValue != "" && rbl_switch.SelectedValue != "" && rbl_Telefonos.SelectedValue != "" && rbl_WIFI.SelectedValue != "" && rbl_switch.SelectedValue != "")
             {
-                cl.Crud("insert into CheckList values('" + rbl_Backup.SelectedValue + "','" + txt_CommentBackup.Text + "','" + rbl_ACfunciona.SelectedValue + "','" + txt_ACfuncionaCom.Text + "','" + rbl_AVdeteccion.SelectedValue + "','" + txt_AVdeteccionCom.Text +
-                    "','" + rbl_SAlarma.SelectedValue + "','" + txt_SalarmaCom.Text + "','" + rbl_NAS.SelectedValue + "','" + txt_NASCom.Text + "','" + rbl_AlarmaOtroDisp.SelectedValue + "','" + txt_CommentOtroDisp.Text +
-                    "','" + rbl_Telefonos.SelectedValue + "','" + txt_CommentTelefono.Text + "','" + rbl_Internet.SelectedValue + "','" + txt_CommentInternet.Text + "','" + rbl_PTRG.SelectedValue + "','" + txt_CommentPTRG.Text +
-                    "','" + rbl_WIFI.SelectedValue + "','" + txt_CommentWIFI.Text + "','" + ddl_Username.Text.Trim() + "','" + DateTime.Now.ToString("MM/dd/yyyy") + "','" + rbl_switch.SelectedValue + "','" + txt_CommentSwitch.Text + "')");
+                cl.Crud("insert into CheckList (ac, comment_ac, av, comment_av, alarm_server, comment_alarmserver, alarm_nas, comment_alarmnas, other_disp, comment_otherdisp, tel, comment_tel, internet, comment_internet, ptrg,comment_ptrg," +
+                    " wifi,comment_wifi, switch,comment_switch,bkp_onpremise, bkp_onpremise_comment, bkp_cloud, bkp_cloud_comment, firewall, firewall_comment, isp, isp_comment, switch, comment_switch username, dateReg) values('"
+                    + rbl_ACfunciona.SelectedValue + "','" + txt_ACfuncionaCom.Text + 
+                    "','" + rbl_AVdeteccion.SelectedValue + "','" + txt_AVdeteccionCom.Text +
+                    "','" + rbl_SAlarma.SelectedValue + "','" + txt_SalarmaCom.Text + 
+                    "','" + rbl_NAS.SelectedValue + "','" + txt_NASCom.Text + 
+                    "','" + rbl_AlarmaOtroDisp.SelectedValue + "','" + txt_CommentOtroDisp.Text +
+                    "','" + rbl_Telefonos.SelectedValue + "','" + txt_CommentTelefono.Text + 
+                    "','" + rbl_Internet.SelectedValue + "','" + txt_CommentInternet.Text + 
+                    "','" + rbl_PTRG.SelectedValue + "','" + txt_CommentPTRG.Text +
+                    "','" + rbl_WIFI.SelectedValue + "','" + txt_CommentWIFI.Text + 
+                    "','" + rbl_Backup_onpremise.SelectedValue + "','" + txt_bkponpremise.Text + 
+                    "','" + rbl_Backup_cloud.SelectedValue + "','" + txt_CommentBackupcloud.Text + 
+                    "','" + rbl_Firewall.SelectedValue + "','" + txt_firewall.Text + 
+                    "','" + rbl_ispdevices.SelectedValue + "','" + txt_ispdevices.Text +
+                    "','" + rbl_switch.SelectedValue + "','" + txt_CommentSwitch.Text +
+                    users.Name + "','" + DateTime.Now.ToString("MM/dd/yyyy") + "')");
 
             }
         }
@@ -73,7 +97,7 @@ namespace Web_Dashboard
                 {
                     cl.id_cl = int.Parse(leer["id_cl"].ToString());
 
-                    ddl_Username.SelectedValue = leer["username"].ToString();
+                    //ddl_Username.SelectedValue = leer["username"].ToString();
 
                     txt_ACfuncionaCom.Text = leer["comment_ac"].ToString();
                     txt_AVdeteccionCom.Text = leer["comment_av"].ToString();
@@ -84,12 +108,12 @@ namespace Web_Dashboard
                     txt_CommentTelefono.Text = leer["comment_tel"].ToString();
                     txt_CommentOtroDisp.Text = leer["comment_otherdisp"].ToString();
                     txt_CommentInternet.Text = leer["comment_internet"].ToString();
-                    txt_CommentBackup.Text = leer["comment_backup"].ToString();
+                    //txt_CommentBackup.Text = leer["comment_backup"].ToString();
                     txt_CommentSwitch.Text = leer["comment_backup"].ToString();
 
                     rbl_ACfunciona.SelectedValue = Convert.ToInt32(bool.Parse(leer["ac"].ToString())).ToString();
                     rbl_AVdeteccion.SelectedValue = Convert.ToInt32(bool.Parse(leer["av"].ToString())).ToString();
-                    rbl_Backup.SelectedValue = Convert.ToInt32(bool.Parse(leer["backups"].ToString())).ToString();
+                    rbl_Backup_onpremise.SelectedValue = Convert.ToInt32(bool.Parse(leer["backups"].ToString())).ToString();
                     rbl_Telefonos.SelectedValue = Convert.ToInt32(bool.Parse(leer["tel"].ToString())).ToString();
                     rbl_WIFI.SelectedValue = Convert.ToInt32(bool.Parse(leer["wifi"].ToString())).ToString();
                     rbl_SAlarma.SelectedValue = Convert.ToInt32(bool.Parse(leer["alarm_server"].ToString())).ToString();
@@ -110,7 +134,7 @@ namespace Web_Dashboard
                     txt_CommentPTRG.Text = "";
                     txt_CommentOtroDisp.Text = "";
                     txt_CommentInternet.Text = "";
-                    txt_CommentBackup.Text = "";
+                    //txt_CommentBackup.Text = "";
                     txt_AVdeteccionCom.Text = "";
                     txt_ACfuncionaCom.Text = "";
                     txt_CommentSwitch.Text = "";
@@ -121,7 +145,7 @@ namespace Web_Dashboard
                     rbl_PTRG.SelectedIndex = -1;
                     rbl_NAS.SelectedIndex = -1;
                     rbl_Internet.SelectedIndex = -1;
-                    rbl_Backup.SelectedIndex = -1;
+                    rbl_Backup_onpremise.SelectedIndex = -1;
                     rbl_AVdeteccion.SelectedIndex = -1;
                     rbl_AlarmaOtroDisp.SelectedIndex = -1;
                     rbl_ACfunciona.SelectedIndex = -1;
@@ -152,8 +176,8 @@ namespace Web_Dashboard
             txt_CommentPTRG.Enabled = true;
             txt_CommentOtroDisp.Enabled = true;
             txt_CommentInternet.Enabled = true;
-            txt_CommentBackup.Enabled = true;
-            txt_CommentBackup.Enabled = true;
+            //txt_CommentBackup.Enabled = true;
+            //txt_CommentBackup.Enabled = true;
             txt_CommentSwitch.Enabled = true;
             rbl_ACfunciona.Enabled = true;
             rbl_AVdeteccion.Enabled = true;
@@ -165,22 +189,25 @@ namespace Web_Dashboard
             rbl_PTRG.Enabled = true;
             rbl_NAS.Enabled = true;
             rbl_Internet.Enabled = true;
-            rbl_Backup.Enabled = true;
+            rbl_Backup_onpremise.Enabled = true;
             rbl_switch.Enabled = true;
         }
 
         protected void btn_Edit_Click(object sender, EventArgs e)
         {
-            if (ddl_Username.Text != "UserName" && txt_Date.Text != ""
-                && rbl_ACfunciona.SelectedValue != "" && rbl_AlarmaOtroDisp.SelectedValue != "" && rbl_AVdeteccion.SelectedValue != "" && rbl_Backup.SelectedValue != "" && rbl_Internet.SelectedValue != "" && rbl_NAS.SelectedValue != ""
+            if ( txt_Date.Text != ""
+                && rbl_ACfunciona.SelectedValue != "" && rbl_AlarmaOtroDisp.SelectedValue != "" && rbl_AVdeteccion.SelectedValue != "" && rbl_Backup_onpremise.SelectedValue != "" && rbl_Internet.SelectedValue != "" && rbl_NAS.SelectedValue != ""
                 && rbl_PTRG.SelectedValue != "" && rbl_SAlarma.SelectedValue != "" && rbl_switch.SelectedValue != "" && rbl_Telefonos.SelectedValue != "" && rbl_WIFI.SelectedValue != "" && rbl_switch.SelectedValue != "")
             {
-                cl.Crud("update CheckList set backups = '" + rbl_Backup.SelectedValue + "', comment_backup = '" + txt_CommentBackup.Text.Trim() + "', ac = '" + rbl_ACfunciona.SelectedValue
+                cl.Crud("update CheckList set ac = '" + rbl_ACfunciona.SelectedValue
                     + "', comment_ac = '" + txt_ACfuncionaCom.Text.Trim() + "', av = '" + rbl_AVdeteccion.SelectedValue + "', comment_av = '" + txt_AVdeteccionCom.Text.Trim() + "', alarm_server = '"
                     + rbl_SAlarma.SelectedValue + "', comment_alarmserver = '" + txt_SalarmaCom.Text.Trim() + "', alarm_nas = '" + rbl_NAS.SelectedValue + "', comment_alarmnas = '" + txt_NASCom.Text.Trim()
                     + "', other_disp = '" + rbl_AlarmaOtroDisp.SelectedValue + "', comment_otherdisp = '" + txt_CommentOtroDisp.Text.Trim() + "', tel = '" + rbl_Telefonos.SelectedValue + "', comment_tel = '"
-                    + txt_CommentTelefono.Text.Trim() + "', internet = '" + rbl_Internet.SelectedValue + "', comment_internet = '" + txt_CommentInternet.Text.Trim() + "', ptrg = '" + rbl_PTRG.SelectedValue
-                    + "', comment_ptrg = '" + txt_CommentPTRG.Text.Trim() + "', wifi = '" + rbl_WIFI.SelectedValue + "', comment_wifi = '" + txt_CommentWIFI.Text.Trim() + "', username = '" + ddl_Username.Text
+                    + txt_CommentTelefono.Text.Trim() + "', internet = '" + rbl_Internet.SelectedValue + "', comment_internet = '" + txt_CommentInternet.Text.Trim() + "', ptrg = '" + rbl_PTRG.SelectedValue 
+                    + "', firewall = '" + rbl_Internet.SelectedValue + "', firewall_comment = '" + txt_CommentInternet.Text.Trim() + "', isp = '" + rbl_PTRG.SelectedValue + "', isp_comment = '" + txt_ispdevices.Text.Trim()
+                    + "', ap = '" + rbl_Internet.SelectedValue + "', ap_comment = '" + txt_CommentInternet.Text.Trim() + "', bkp_onpremise = '" + rbl_PTRG.SelectedValue + "', bkp_onpremise_comment = '" + rbl_Backup_onpremise.Text.Trim()
+                    + "', bkp_cloud = '" + rbl_PTRG.SelectedValue + "', bkp_cloud_comment = '"
+                    + "', comment_ptrg = '" + txt_CommentPTRG.Text.Trim() + "', wifi = '" + rbl_WIFI.SelectedValue + "', comment_wifi = '" + txt_CommentWIFI.Text.Trim() + "', username = '" + users.Name
                     + "' where id_cl = '" + cl.id_cl + "'");
 
             }
@@ -192,7 +219,7 @@ namespace Web_Dashboard
             txt_Date.Text = "";
             txt_ACfuncionaCom.Text = "";
             txt_AVdeteccionCom.Text = "";
-            txt_CommentBackup.Text = "";
+            //txt_CommentBackup.Text = "";
             txt_CommentInternet.Text = "";
             txt_CommentOtroDisp.Text = "";
             txt_CommentPTRG.Text = "";
@@ -205,7 +232,7 @@ namespace Web_Dashboard
             rbl_ACfunciona.SelectedIndex = -1;
             rbl_AlarmaOtroDisp.SelectedIndex = -1;
             rbl_AVdeteccion.SelectedIndex = -1;
-            rbl_Backup.SelectedIndex = -1;
+            rbl_Backup_onpremise.SelectedIndex = -1;
             rbl_Internet.SelectedIndex = -1;
             rbl_NAS.SelectedIndex = -1;
             rbl_PTRG.SelectedIndex = -1;

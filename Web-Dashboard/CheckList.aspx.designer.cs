@@ -60,15 +60,6 @@ namespace Web_Dashboard
         protected global::System.Web.UI.WebControls.Button btn_Cancel;
 
         /// <summary>
-        /// ddl_Username control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddl_Username;
-
-        /// <summary>
         /// CheckMain control.
         /// </summary>
         /// <remarks>
@@ -87,22 +78,40 @@ namespace Web_Dashboard
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Label4;
 
         /// <summary>
-        /// rbl_Backup control.
+        /// rbl_Backup_onpremise control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rbl_Backup;
+        protected global::System.Web.UI.WebControls.RadioButtonList rbl_Backup_onpremise;
 
         /// <summary>
-        /// txt_CommentBackup control.
+        /// txt_bkponpremise control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_CommentBackup;
+        protected global::System.Web.UI.WebControls.TextBox txt_bkponpremise;
+
+        /// <summary>
+        /// rbl_Backup_cloud control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rbl_Backup_cloud;
+
+        /// <summary>
+        /// txt_CommentBackupcloud control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_CommentBackupcloud;
 
         /// <summary>
         /// rbl_ACfunciona control.
@@ -184,6 +193,42 @@ namespace Web_Dashboard
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButtonList rbl_switch;
+
+        /// <summary>
+        /// txt_firewall control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_firewall;
+
+        /// <summary>
+        /// rbl_Firewall control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rbl_Firewall;
+
+        /// <summary>
+        /// txt_ispdevices control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_ispdevices;
+
+        /// <summary>
+        /// rbl_ispdevices control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rbl_ispdevices;
 
         /// <summary>
         /// txt_CommentSwitch control.

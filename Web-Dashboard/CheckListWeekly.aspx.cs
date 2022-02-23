@@ -29,10 +29,10 @@ namespace Web_Dashboard
 
         protected void btn_Save_Click(object sender, EventArgs e)
         {
-            if (rbl_BackupControlAcceso.SelectedValue != "" && rbl_BackupFuera.SelectedValue != "" && rb_RevisionclinetesWIFI.SelectedValue != "")
+            if (rbl_BackupControlAcceso.SelectedValue != "" && rb_bloquearusb.SelectedValue != "" && rb_RevisionclinetesWIFI.SelectedValue != "")
             {
                 weekly.Crud("insert into CheckListWeekly (MoverFuerabkp, Comment_MoverFuerabkp, ControlAccesobkp, Comment_ControlAccesobkp, RevisionClientesWIFI, Comment_RevisionClientesWIFI, username, dateReg) values('"
-                    + rbl_BackupFuera.SelectedValue + "','" + txt_CommentBackupFuera.Text + "','" + rbl_BackupControlAcceso.SelectedValue + "','" + txt_BackupControlAcceso.Text +
+                    + rb_bloquearusb.SelectedValue + "','" + txt_Commentbloquearusb.Text + "','" + rbl_BackupControlAcceso.SelectedValue + "','" + txt_BackupControlAcceso.Text +
                     "','" + rb_RevisionclinetesWIFI.SelectedValue + "','" + txt_CommentRevisionclinetesWIFI.Text +
                     "','" + ddl_Username.Text.Trim() + "','" + DateTime.Now.ToString("MM/dd/yyyy") + "')");
 
@@ -47,7 +47,7 @@ namespace Web_Dashboard
             txt_Date.Text = "";
 
             rbl_BackupControlAcceso.SelectedIndex = -1;
-            rbl_BackupFuera.SelectedIndex = -1;
+            rb_bloquearusb.SelectedIndex = -1;
             rb_RevisionclinetesWIFI.SelectedIndex = -1;
 
 
